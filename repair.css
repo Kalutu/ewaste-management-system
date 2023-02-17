@@ -1,0 +1,63 @@
+.pgtitle{display:block;width:100%;padding:50px 100px;text-align:center;background: linear-gradient( to bottom, rgba(34,166,82,0.9) 25%, rgba(33,107,132,0.75) 75%), url('../images/reuse.jpg');
+	background-size:cover;background-position:center;background-repeat: no-repeat;}
+.pgtitle h1{font-size:32px;margin-bottom:20px;color:#fff;}
+.pgtitle h2{font-size:18px;margin-bottom:20px;color:#fff;}
+
+.myform{display:block;width:100%;padding:50px 100px;}
+.myform p{margin-bottom:20px;text-align:center;}
+.myform form{display:block;width:100%;}
+.myform .inputgrid{display:grid;grid-template-columns:1fr 1fr;grid-gap:30px;width:100%;}
+.myform .inputgroup{display:block;width:100%;margin-bottom:10px;}
+.myform .inputgroup label{display:block;width:100%;margin-bottom:5px;font-weight:bold;}
+.myform .inputgroup input, .myform .inputgroup textarea{display:block;width:100%;padding:10px;border-radius:14px;border:1px solid #333;}
+.myform .inputgroup textarea{height:210px;}
+.myform button{display:block;width:100%;padding:10px;border-radius:14px;border:none;background:#22a652;color:#fff;font-weight:bold;}
+
+.howitworks{display:block;width:100%;padding:30px 100px;}
+.howitworks h2{font-size:32px;margin-bottom:20px;color:#216b84;text-align:center;}
+.howitworks ul{display:block;}
+.howitworks ul li{display:block;margin-bottom:10px;line-height:24px;}
+.howitworks ul li b{display:block;font-size:18px;margin-bottom:10px;line-height:24px;color:#22a652;}
+.howitworks ul li span{display:block;line-height:24px;}
+@media only screen and (max-width: 800px){
+	.pgtitle{padding:50px 20px;}
+	.pgtitle h1{font-size:32px;margin-bottom:20px;}
+	.pgtitle h2{font-size:18px;margin-bottom:20px;}
+
+	.myform{padding:50px 20px;}
+	.myform p{margin-bottom:20px;}
+	.myform form{}
+	.myform .inputgrid{grid-template-columns:1fr 1fr;grid-gap:20px;}
+	.myform .inputgroup{margin-bottom:10px;}
+	.myform .inputgroup label{margin-bottom:5px;}
+	.myform .inputgroup input, .myform .inputgroup textarea{padding:10px;}
+	.myform .inputgroup textarea{height:210px;}
+	.myform button{padding:10px;border-radius:14px;}
+
+	.howitworks{padding:30px 20px;}
+	.howitworks h2{font-size:32px;margin-bottom:20px;}
+	.howitworks ul li{margin-bottom:10px;line-height:24px;}
+	.howitworks ul li b{font-size:18px;margin-bottom:10px;line-height:24px;}
+	.howitworks ul li span{line-height:24px;}
+}
+@media only screen and (max-width: 500px){
+	.pgtitle{padding:30px 20px;}
+	.pgtitle h1{font-size:24px;margin-bottom:20px;}
+	.pgtitle h2{font-size:17px;margin-bottom:20px;}
+
+	.myform{padding:30px 20px;}
+	.myform p{margin-bottom:20px;}
+	.myform form{}
+	.myform .inputgrid{grid-template-columns:1fr;grid-gap:10px;}
+	.myform .inputgroup{margin-bottom:10px;}
+	.myform .inputgroup label{margin-bottom:5px;}
+	.myform .inputgroup input, .myform .inputgroup textarea{padding:10px;}
+	.myform .inputgroup textarea{height:210px;}
+	.myform button{padding:10px;border-radius:14px;}
+
+	.howitworks{padding:30px 20px;}
+	.howitworks h2{font-size:24px;margin-bottom:20px;}
+	.howitworks ul li{margin-bottom:10px;line-height:24px;}
+	.howitworks ul li b{font-size:18px;margin-bottom:10px;line-height:24px;}
+	.howitworks ul li span{line-height:24px;}
+}

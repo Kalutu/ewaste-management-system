@@ -1,0 +1,25 @@
+.about{width:100%;display:block;padding:50px 100px;}
+.about h1{margin-bottom:10px;font-size:32px;color:#22a652;}
+.about p{margin-bottom:10px;line-height:24px;}
+.about img{float: right;width:50%;min-width:300px;margin-left:30px;margin-bottom:20px;}
+.about h2{font-size:24px;color:#216b84;font-weight:bold;display:block;margin-bottom:10px;}
+.about ul{padding-left:30px;}
+.about ul li{margin-bottom:10px;}
+@media only screen and (max-width: 800px){
+	.about{padding:50px 20px;}
+	.about h1{margin-bottom:10px;font-size:32px;}
+	.about p{margin-bottom:10px;line-height:24px;}
+	.about img{float: right;width:50%;min-width:300px;margin-left:30px;margin-bottom:20px;}
+	.about h2{font-size:24px;margin-bottom:10px;}
+	.about ul{padding-left:30px;}
+	.about ul li{margin-bottom:10px;}
+}
+@media only screen and (max-width: 500px){
+	.about{padding:30px 20px;}
+	.about h1{margin-bottom:10px;font-size:28px;}
+	.about p{margin-bottom:10px;line-height:24px;}
+	.about img{display:block;float: none;width:100%;min-width:200px;margin-left:0px;margin-bottom:20px;}
+	.about h2{font-size:24px;margin-bottom:10px;}
+	.about ul{padding-left:30px;}
+	.about ul li{margin-bottom:10px;}
+}

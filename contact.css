@@ -1,0 +1,44 @@
+.support{display:block;overflow:hidden;width:100%;padding:30px 100px;}
+.supporthead {display:block;overflow:hidden;width:100%;padding:20px 50px;background:#22a652;}
+.support h2{font-size:24px;text-align:center;color:#fff;}
+.supportbody {display:block;overflow:hidden;width:100%;padding:20px;}
+.supportbody h4{margin-bottom:20px;margin-top:20px;font-size:20px;color:#22a652;}
+.supportbody h5{margin-bottom:7px;font-size:20px;color:#216b84;}
+.supportbody p{margin-bottom:7px;line-height:24px;}
+.contgrid{width:100%;overflow:hidden;display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:20px;}
+
+.love{display:block;overflow:hidden;text-align:center;width:100%;padding:00px 100px;background:rgba(255,255,255,0.3);}
+.love h2{font-size:32px;margin:20px 20px;color:#216b84;}
+.love p{margin-bottom:10px;line-height:24px}
+.socialgrid{width:100%;margin:auto;max-width:600px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;grid-gap:50px;padding:30px 0px;}
+.socialbox{display:block;overflow:hidden;width:100%;padding:20px;background:#22a652;border-radius:50%;}
+.socialgrid img{display:block;width:100%;margin:auto;max-width:100px;}
+
+@media only screen and (max-width: 800px){
+	.support{padding:30px 20px;}
+	.supporthead {padding:20px 50px;}
+	.support h2{font-size:24px;}
+	.supportbody {padding:20px;}
+	.supportbody h4{margin-bottom:20px;margin-top:20px;font-size:20px;}
+	.supportbody h5{margin-bottom:7px;font-size:20px;}
+	.supportbody p{margin-bottom:7px;line-height:24px;}
+	.contgrid{grid-template-columns:1fr 1fr;grid-gap:20px;}
+
+	.love{width:100%;padding:0px 20px;margin-bottom:50px;}
+	.love h2{font-size:32px;margin:20px 20px;}
+	.love p{margin-bottom:10px;}
+	.socialgrid{max-width:450px;grid-template-columns:1fr 1fr 1fr 1fr 1fr;grid-gap:10px;padding:30px 0px;}
+	.socialbox{padding:18px;}
+	.socialgrid img{max-width:100px;}
+}
+@media only screen and (max-width: 500px){
+	.support{padding:0px 0px;}
+	.contgrid{grid-template-columns:1fr ;grid-gap:20px;}
+
+	.love{width:100%;padding:0px 20px;}
+	.love h2{font-size:24px;margin:20px 20px;}
+	.love p{margin-bottom:10px;}
+	.socialgrid{max-width:280px;grid-template-columns:1fr 1fr 1fr 1fr 1fr;grid-gap:10px;padding:30px 0px;}
+	.socialbox{padding:10px;}
+	.socialgrid img{max-width:70px;}
+}

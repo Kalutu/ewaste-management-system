@@ -1,0 +1,14 @@
+.gallery {width:100%;overflow:hidden;padding:30px 100px;display: block;}
+.gallerygrid {width:100%;overflow:hidden;display: grid;grid-template-columns:1fr 1fr 1fr;grid-gap: 20px;}
+.gallery h1{font-size:32px;margin-bottom:20px;color:#216b84;text-align:center;}
+.gallery img{display: block;width:100%;}
+@media only screen and (max-width: 800px){
+	.gallery {padding:30px 20px;}
+	.gallerygrid {grid-template-columns: 1fr 1fr ;grid-gap: 20px;}
+	.gallery h1{font-size:32px;margin-bottom:20px;}
+}
+@media only screen and (max-width: 500px){
+	.gallery {padding:30px 20px;}
+	.gallerygrid {grid-template-columns:1fr 1fr;grid-gap: 10px;}
+	.gallery h1{font-size:24px;margin-bottom:20px;}
+}

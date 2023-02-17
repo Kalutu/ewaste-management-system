@@ -1,0 +1,62 @@
+.formgrid{width:100%;overflow:hidden;display:grid;grid-template-columns:1fr 1.5fr;grid-column-gap:30px;padding:50px 100px;}
+.myform,.formimg{display:block;width:100%;overflow:hidden;}
+.formimg{background:#EEAD0E;background: linear-gradient( to bottom, rgba(34,166,82,0.75) 25%, rgba(33,107,132,0.75) 75%), url('../images/clint-bustrillos-K7OUs6y_cm8-unsplash.jpg');
+	background-size:cover;background-position:center;background-repeat: no-repeat;}
+.formimgbg{display:block;width:100%;height:100%;overflow:hidden;background:url("../images/bg/cover_bg.png") repeat;}
+.formimg img{display:block;width:100%;}
+.myform{background:rgba(255,255,255,0.7);padding:20px;}
+.myform h1{font-size:32px;text-align:center;margin-bottom:30px;color:#216b84;}
+.tab {overflow: hidden;width:100%;display:block;}
+.tabbtns{width:100%;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;grid-column-gap:20px;margin-bottom:20px;}
+.tab button {display: block;width:100%;background:#ddd;transition: 0.3s;padding:15px 10px;border-radius:14px;border:none;color:#444;float:right;margin:auto;font-weight:bold;}
+.tab button:hover {background:#bbb;color:#fff;}
+.tab button.active {background: #22a652;color:#fff;}
+.tabcontent {display: none;border-top: none;background: #fff;overflow:hidden;}
+.tabcontent h2{margin-bottom:20px;font-size:18px;text-align:center;color:#555;}
+.inputgrid{width:100%;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;grid-gap:20px;}
+.inputgroup{display:block;width:100%;overflow:hidden;margin-bottom:10px;}
+.inputgroup label{display:block;font-weight:bold;margin-bottom:7px;}
+.inputgroup input{display:block;width:100%;border:1px solid #026;border-radius:14px;padding:10px 10px;}
+.myform form button{float:right;display:block;width:140px;padding:10px;border:none;background:#22a652;text-align:center;color:#fff;margin-bottom:10px;}
+.myform p{display:block;width:100%;text-align:center;overflow:hidden;}
+.myform p a:hover{color:#22a652;}
+@media only screen and (max-width:800px){
+	.formgrid{grid-template-columns:1fr ;grid-column-gap:20px;padding:50px 20px;}
+	.myform,.formimg{}
+	.formimg{}
+	.formimgbg{height:100%;}
+	.formimg img{}
+	.myform{padding:0px;}
+	.myform h1{font-size:32px;margin-bottom:30px;}
+	.tab {}
+	.tabbtns{grid-template-columns:1fr 1fr;grid-column-gap:20px;margin-bottom:20px;}
+	.tab button {padding:15px 10px;}
+	.tabcontent {display: none;}
+	.tabcontent h2{margin-bottom:20px;font-size:18px;}
+	.inputgrid{grid-template-columns:1fr 1fr;grid-gap:20px;}
+	.inputgroup{margin-bottom:10px;}
+	.inputgroup label{margin-bottom:7px;}
+	.inputgroup input{padding:10px 10px;}
+	.myform form button{float:right;width:140px;padding:10px;margin-bottom:10px;}
+	.myform p{}
+}
+@media only screen and (max-width:500px){
+	.formgrid{grid-template-columns:1fr ;grid-column-gap:20px;padding:30px 20px;}
+	.myform,.formimg{}
+	.formimg{}
+	.formimgbg{height:100%;}
+	.formimg img{}
+	.myform{padding:0px;}
+	.myform h1{font-size:24px;margin-bottom:30px;}
+	.tab {}
+	.tabbtns{grid-template-columns:1fr 1fr;grid-column-gap:20px;margin-bottom:20px;}
+	.tab button {padding:15px 10px;}
+	.tabcontent {display: none;}
+	.tabcontent h2{margin-bottom:20px;font-size:18px;}
+	.inputgrid{grid-template-columns:1fr ;grid-gap:20px;}
+	.inputgroup{margin-bottom:10px;}
+	.inputgroup label{margin-bottom:7px;}
+	.inputgroup input{padding:10px 10px;}
+	.myform form button{float:right;width:140px;padding:10px;margin-bottom:10px;}
+	.myform p{}
+}
